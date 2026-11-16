@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #dddcdc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text-bg{
+    margin-top: 120px;
+    background-color: #fff;
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+    width: 470px;
+    gap: 15px;
+    box-shadow: 0px 0px 90px 0px rgba(34, 60, 80, 0.3);
+    font-family: "Marck Script", cursive;
+    font-size: 20px;
+}
+
+.text-bg img{
+    max-width: 200px;
+}
+
+.text-bg a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 11px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    background: #272727;
+    color: #fff;
+    border-radius: 8px;
+    transition: 
+                color 0.3s ease-in-out,
+                background 0.6s;
+}
+
+.text-bg a:hover{
+    background: #fff;
+    color: #272727;
+    border: 1px solid #272727;
+}
+
+.text-bg p{
+    font-weight: bold;
+}
